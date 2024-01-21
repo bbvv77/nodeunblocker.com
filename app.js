@@ -14,7 +14,7 @@ var querystring = require('querystring');
 var express = require('express');
 var Unblocker = require('unblocker');
 var Transform = require('stream').Transform;
-var youtube = https://raw.githubusercontent.com/bbvv77/node-unblocker/master/examples/youtube/youtube.js
+var youtube = require('https://raw.githubusercontent.com/bbvv77/node-unblocker/master/examples/youtube/youtube.js')
 
 var app = express();
 
