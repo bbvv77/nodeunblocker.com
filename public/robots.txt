@@ -1,7 +1,7 @@
 User-agent: *
-Disallow: /web/http
-Disallow: /web/http:
-Disallow: /web/http:/
-Disallow: /web/https
-Disallow: /web/https:
-Disallow: /web/https:/
+Disallow: /webcdn/http
+Disallow: /webcdn/http:
+Disallow: /webcdn/http:/
+Disallow: /webcdn/https
+Disallow: /webcdn/https:
+Disallow: /webcdn/https:/
