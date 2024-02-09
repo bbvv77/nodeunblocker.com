@@ -15,7 +15,7 @@ function processRequest(data) {
       .getInfo(data.url)
       .then((info) => {
         // only use formats with combined audio and video (note these tend to be lower resolution)
-        const formats = ytdl.filterFormats(info.formats, "audioandvideo");
+        const formats = ytdl.filterFormats(info.formats, "videoandaudio");
 
         const thumb = info.videoDetails.thumbnails.pop();
 
