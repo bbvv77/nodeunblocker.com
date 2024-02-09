@@ -33,7 +33,7 @@ ${formats
     (format) =>
       `  <source type="${format.mimeType
         .split(";")
-        .shift()}" src="/proxy/${format.url.replace(/&/g, "&amp;")}">`
+        .shift()}" src="/web/${format.url.replace(/&/g, "&amp;")}">`
   )
   .join("\n")}
 </video>
